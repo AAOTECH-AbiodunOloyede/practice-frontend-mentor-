@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initia l-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" media="screen" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @media screen {
+      width: 200px;
+    }
+    body{
+      background-image: -webkit-image-set(favicon-32x32);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    p, h1{
+      text-align: center;
+    }
+    
+    .content{
+      width: 100%;
+    }
+    
+    .container img{
+      box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
+      width: 100%;
+      border-radius: 10px 10px;
+      object-fit: cover;
+    }
+    @media screen {
+      .container p, h1{
+      min-width: 100%;
+    }
+    }
+    .qr-container{
+      justify-items: center;
+    }
+    .container{
+      background: white;
+      background-image: -webkit-image-set(favicon-32x32);
+      margin: 20px;
+                /* margin-left: 820px; */
+              /* /  margin-bottom: 20px; */
+      padding: 15px;
+      box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
+      width: auto;
+      height: 30%;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="qr-container">
+    <div class="container">
+      <div class="content">
+        <img src="C:\Users\MARCELA\Downloads\qr-code-component-main\qr-code-component-main\images\image-qr-code.png" alt="QR-Scanner">
+        <h1>Improve your frontend <br>skills by building projects</h1>
+        <p style="color: blueviolet">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Abiodun Ayomide Oloyede</a>.
+  </div>
+</body>
+</html>
