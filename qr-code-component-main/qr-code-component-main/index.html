@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initia l-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" media="screen" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -10,34 +10,35 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    @media screen {
-      width: 200px;
-    }
     body{
-      background-image: -webkit-image-set(favicon-32x32);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: -moz-linear-gradient(favicon-32x32);
     }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    p, h1{
+    h1{
       text-align: center;
+      font-size: 1.5rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bolder;
     }
-    
+    p{
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: blueviolet;
+    }
     .content{
       width: 100%;
     }
-    
+      .container{
+        min-width: 300px;
+      }    
     .container img{
-      box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
+      box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
       width: 100%;
       border-radius: 10px 10px;
       object-fit: cover;
     }
-    @media screen {
-      .container p, h1{
-      min-width: 100%;
-    }
-    }
+    
     .qr-container{
       justify-items: center;
     }
@@ -48,8 +49,8 @@
                 /* margin-left: 820px; */
               /* /  margin-bottom: 20px; */
       padding: 15px;
-      box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
-      width: auto;
+      box-shadow: 0 5px 10px 0 rgba(41, 40, 40, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      width: 30%;
       height: 30%;
       border-radius: 20px;
       overflow: hidden;
@@ -61,16 +62,16 @@
   <div class="qr-container">
     <div class="container">
       <div class="content">
-        <img src="C:\Users\MARCELA\Downloads\qr-code-component-main\qr-code-component-main\images\image-qr-code.png" alt="QR-Scanner">
-        <h1>Improve your frontend <br>skills by building projects</h1>
-        <p style="color: blueviolet">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+        <img src="images/image-qr-code.png" alt="QR-Scanner">
+        <h1>Improve your front-end <br>skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
       </div>
     </div>
   </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Abiodun Ayomide Oloyede</a>.
+    Coded by <a href="https://github.com/AAOTECH-AbiodunOloyede/practice-frontend-mentor-">Abiodun Ayomide Oloyede</a>.
   </div>
 </body>
 </html>
